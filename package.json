@@ -1,0 +1,23 @@
+{
+  "name": "zeromock.com",
+  "version": "0.0.1",
+  "description": "ZeroMock Website",
+  "dependencies": {
+    "tailwindcss": "^3.1.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/dist/output.css --minify",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeroMock/Website.git"
+  },
+  "author": "Coenraad Stijne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZeroMock/Website/issues"
+  },
+  "homepage": "https://github.com/ZeroMock/Website#readme"
+}
